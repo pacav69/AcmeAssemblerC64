@@ -6,25 +6,35 @@ The cx16 emulator is used for development.
 
 Below is a quick start guide.
 
-# Installation, OSX
+# Installation: OSX
 
-* brew install acme
+* need [homebrew ](https://brew.sh/) installed
 
-* download and install Commander X16 emulator
+    brew install acme
+
+* download and install [Commander X16 emulator](https://github.com/commanderx16/x16-emulator/releases)
 extract the files
-copy folder to Applications  folder
+copy folder to Applications folder
 
+* download this repo 
+extract the files
+copy AcmeAssemblerC64 folder to /Users/[username]/Library/Application Support/Sublime Text 3/Packages folder, replace [username] with login name.
 
-# Installation, Windows
-
-* download and install Commander X16 emulator 
-
-
-
-# Installation, Linux
+# Installation: Windows
 
 * download and install Commander X16 emulator 
 
+* download this repo 
+extract the files
+copy AcmeAssemblerC64 folder to c:.../applications/Sublime Text 3/Packages folder.
+
+# Installation: Linux
+
+* download and install Commander X16 emulator 
+
+* download this repo 
+extract the files
+copy AcmeAssemblerC64 folder to .../applications/Sublime Text 3/Packages folder.
 
 # Develop, build and run
 
@@ -90,13 +100,13 @@ This is a file that has the css file used to style the tooltips.
 
 This defines the directory where json formatted help files are. Feel free to drop in your own.
 
-    "scopes": ["source.assembly.Acmeembler"],
+    "scopes": ["source.assembly.AcmeAssembler"],
 
 This definies in which scopes the plugin should work. So far it will fire up only in Acme Assembler scope.
 
     "log_level": "warning"
 
-For the debuggin purposes you can increase the log level to info or debug, open Python console (ctrl-\`) and observe what is going on and what problems the plugin has. If you report a bug, please use "debug" level and make sure you copy paset the whole output.
+For the debugging purposes you can increase the log level to info or debug, open Python console (ctrl-\`) and observe what is going on and what problems the plugin has. If you report a bug, please use "debug" level and make sure you copy paste the whole output.
 
 # Contribute
 
