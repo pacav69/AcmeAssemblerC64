@@ -1,5 +1,4 @@
 # Sublime Acme Assembler (C64)
-===========================
 Sublime Package for C64/CX16 6502 assembly development using the Acme Assembler, contains language configuration/syntax coloring, build system and some snippets. Support for OSX, Windows and Linux.
 Requires Sublime Text, version 3 is supported. 
 
@@ -8,7 +7,7 @@ The cx16 emulator is used for development.
 Below is a quick start guide.
 
 # Installation, OSX
------------------
+
 * brew install acme
 
 * download and install Commander X16 emulator
@@ -28,7 +27,7 @@ copy folder to Applications  folder
 
 
 # Develop, build and run
-----------------------
+
 * Open a Acme Assembler code file in Sublime text. Example code file 
 
  * Press `F7` key to start Build and Run (see below for more build options)
@@ -36,7 +35,7 @@ copy folder to Applications  folder
 * If you get error saying java is not recognized as an internal or external command, ensure java is installed and add the path to your java binaries folder to the PATH environment variable
 
 # Details, Build System
----------------------
+
 
 Action&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Shortcut macOS | Shortcut Windows | Description
 :--|:--|:--|:--
@@ -63,7 +62,7 @@ The following (relevant?) environment variables will be available in the make sc
 
 
 # Pre/post-build
---------------
+
 
 There's a way to execute custom scripts before/after the build.
 
@@ -74,12 +73,12 @@ There's a way to execute custom scripts before/after the build.
 
 
 # AcmeTooltips
-===============
+
 
 This plugin makes working with Acme Assembler easier by displaying various helpful tooltip information. Tooltips database can be extended to provide more c64 related info. So far rudimentary help files with Acme Assembler directives, illegal opcodes, VIC registers and SID registers are ready. This plugin was added by Roman Dobosz (Gryf/Elysium) and Krzysztof Dabrowski (Brush/Elysium)
 
 # Configuration
--------------
+
 
 Navigate to Preferences/Package Settings/AcmeTooltips and select the configuration file to edit. Currently you can configure:
 
@@ -100,12 +99,12 @@ This definies in which scopes the plugin should work. So far it will fire up onl
 For the debuggin purposes you can increase the log level to info or debug, open Python console (ctrl-\`) and observe what is going on and what problems the plugin has. If you report a bug, please use "debug" level and make sure you copy paset the whole output.
 
 # Contribute
-==========
+
 
 Making changes
---------------
+
 Fork repo, make changes and submit pull requests.
 
 # Local development
------------------
+
 Just clone repo into Sublime package folder and you can test the package "live" during development.
