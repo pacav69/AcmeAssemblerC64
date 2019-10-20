@@ -16,7 +16,7 @@ extract the files
 copy folder to Applications  folder
 
 
-Installation, Windows
+# Installation, Windows
 
 * download and install Commander X16 emulator 
 
@@ -27,15 +27,15 @@ Installation, Windows
 * download and install Commander X16 emulator 
 
 
-Develop, build and run
+# Develop, build and run
 ----------------------
- 1. Open a Acme Assembler code file in Sublime text. Example code file 
+* Open a Acme Assembler code file in Sublime text. Example code file 
 
- 2. Press `F7` key to start Build and Run (see below for more build options)
+ * Press `F7` key to start Build and Run (see below for more build options)
 
-\* If you get error saying java is not recognized as an internal or external command, ensure java is installed and add the path to your java binaries folder to the PATH environment variable
+* If you get error saying java is not recognized as an internal or external command, ensure java is installed and add the path to your java binaries folder to the PATH environment variable
 
-Details, Build System
+# Details, Build System
 ---------------------
 
 Action&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Shortcut macOS | Shortcut Windows | Description
@@ -52,7 +52,7 @@ Make | `F8` | `F8` | Invokes a script called `make.bat` for Windows, `make.sh` f
 
 The following (relevant?) environment variables will be available in the make script:
 
-Variable | Info
+# Variable | Info
 :--|:--
 `Acme_file` | Filename of active file when command was triggered
 `Acme_file_path` | Full path active file when command was triggered
@@ -62,23 +62,23 @@ Variable | Info
 "acme_emulator_run_path": "/Applications/x16emu_mac-r33/x16emu" | path to emulator
 
 
-Pre/post-build
+# Pre/post-build
 --------------
 
 There's a way to execute custom scripts before/after the build.
 
-Variable | Info
+## Variable | Info
 :--|:--
 `default_prebuild_path` | Full path to the `.bat` or `.sh` script file that will be executed __before__ the build.
 `default_postbuild_path` | Full path to the `.bat` or `.sh` script file that will be executed __after__ the build. Useful for file compression etc.
 
 
-AcmeTooltips
+# AcmeTooltips
 ===============
 
 This plugin makes working with Acme Assembler easier by displaying various helpful tooltip information. Tooltips database can be extended to provide more c64 related info. So far rudimentary help files with Acme Assembler directives, illegal opcodes, VIC registers and SID registers are ready. This plugin was added by Roman Dobosz (Gryf/Elysium) and Krzysztof Dabrowski (Brush/Elysium)
 
-Configuration
+# Configuration
 -------------
 
 Navigate to Preferences/Package Settings/AcmeTooltips and select the configuration file to edit. Currently you can configure:
@@ -99,18 +99,13 @@ This definies in which scopes the plugin should work. So far it will fire up onl
 
 For the debuggin purposes you can increase the log level to info or debug, open Python console (ctrl-\`) and observe what is going on and what problems the plugin has. If you report a bug, please use "debug" level and make sure you copy paset the whole output.
 
-Contribute
+# Contribute
 ==========
 
 Making changes
 --------------
 Fork repo, make changes and submit pull requests.
 
-Local development
+# Local development
 -----------------
 Just clone repo into Sublime package folder and you can test the package "live" during development.
-
-Running all tests
------------------
-1. Install package [UnitTesting](https://packagecontrol.io/packages/UnitTesting) thru [Package Control](ttps://packagecontrol.io/)
-2. In Sublime Text, run command `UnitTesting: Test Current pakcage` with the SublimeAcmeemblerC64-folder opened
