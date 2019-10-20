@@ -1,0 +1,6 @@
+{
+    "css_file": "AcmeAssemblerC64/css/default.css",
+    "help_directories": ["AcmeAssemblerC64/helpdb"],
+    "scopes": ["source.assembly.acmeassembler"],
+    "log_level": "warning"
+}

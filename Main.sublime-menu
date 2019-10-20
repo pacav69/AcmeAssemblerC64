@@ -1,0 +1,42 @@
+[
+    {
+        "id": "preferences",
+        "children":
+        [
+            {
+                "id": "package-settings",
+                "children":
+                [
+                    {
+                        "caption": "ç",
+                        "children":
+                        [
+                            {
+                                "command": "open_file",
+                                "args": {
+                                    "file": "${packages}/AcmeAssemblerC64/README.md",
+                                },
+                                "caption": "README"
+                            },
+                            { "caption": "-" },
+                            {
+                                "caption": "Preferences",
+                                "command": "edit_settings",
+                                "args": {
+                                    "base_file": "${packages}/AcmeAssemblerC64/Preferences.sublime-settings",
+                                    "default": "// Settings in here override those in \"/AcmeAssemblerC64/Preferences.sublime-settings\",\n\n{\n\t$0\n}\n"}
+                            },
+                            {
+                                "caption": "Settings",
+                                "command": "edit_settings",
+                                "args": {
+                                    "base_file": "${packages}/AcmeAssemblerC64/AcmeAssembler (C64).sublime-settings",
+                                    "default": "// Settings in here override those in \"/AcmeAssemblerC64/AcmeAssembler (C64).sublime-settings\",\n\n{\n\t$0\n}\n"}
+                            },
+                        ]
+                    },
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+//----------------------------------------------------------
+//				${1:Description}
+//----------------------------------------------------------
+${SELECTION}
+//----------------------------------------------------------
+
+]]></content>
+    <tabTrigger>region</tabTrigger>
+    <scope>source.assembly.acmeassembler</scope>
+    <description>acme Assembler region</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+:break()
+]]></content>
+    <tabTrigger>bp</tabTrigger>
+    <scope>source.assembly.acmeassembler</scope>
+    <description>acme Assembler breakpoint</description>
+</snippet>

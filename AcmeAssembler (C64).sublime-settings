@@ -1,0 +1,10 @@
+{
+	"extensions":
+	[
+		"asm",
+		"inc",
+		"s",
+		"a",
+		"lib"
+	]
+}

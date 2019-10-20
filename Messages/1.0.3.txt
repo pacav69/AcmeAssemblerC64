@@ -1,0 +1,10 @@
+New in version 1.0.3:
+- The Java CLASSPATH is used when running Kick Assembler, 
+  which means you can place the KickAss.jar file anywhere, 
+  as long as it exists in your CLASSPATH environment variable
+- Small fixes in language-definition (syntax coloring)
+- Version upped to 1.0, to indicate that all basic functionality is in there and that its fairly stable
+
+//Swoffa of Noice
+
+

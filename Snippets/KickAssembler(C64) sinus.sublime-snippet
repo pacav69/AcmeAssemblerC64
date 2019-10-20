@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+*=${1:\$ADDR} "${2:Sinus}"
+.fill ${3:LENGTH}, ${4:AMPLITUDE} + ${5:$4}*sin(toRadians(i*360/${6:SIZE}))
+
+]]></content>
+    <tabTrigger>sin</tabTrigger>
+    <scope>source.assembly.acmeassembler</scope>
+    <description>acme Assembler generate sinus curve</description>
+</snippet>

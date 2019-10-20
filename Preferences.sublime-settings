@@ -1,0 +1,31 @@
+{	
+	"acme_run_path": "x64",
+	"acme_run_args": "-run ",
+	//  "cmd": "/Applications/x16emu_mac-r32/x16emu -prg bin/${file_base_name}_Compiled.prg -run"
+	"acme_emulator_run_path": "/Applications/x16emu_mac-r33/x16emu",
+	"acme_debug_path": "x64",
+	"acme_startup_file_path": "Startup",
+	"acme_empty_bin_folder_before_build" : "true",
+	"acme_breakpoint_filename" : "breakpoints.txt",
+	"acme_compiled_filename": "${build_file_base_name}.prg",
+	"acme_output_path": "bin",
+	"default_prebuild_path": "",
+	"default_postbuild_path": "",
+	"default_make_path": "",
+	"acme_debug_command_c64debugger": "\"${acme_debug_path}\" -autojmp -layout 10 -breakpoints \"${acme_output_path}/${acme_breakpoint_filename}\" -symbols \"${acme_output_path}/${build_file_base_name}.vs\" -wait 2500 -prg \"${acme_output_path}/${start_filename}\"",
+	"acme_debug_command_x64": "\"${acme_debug_path}\" -logfile \"${acme_output_path}/${build_file_base_name}_ViceLog.txt\" -moncommands \"${acme_output_path}/${build_file_base_name}_MonCommands.mon\" ${acme_debug_args} \"${acme_output_path}/${start_filename}\"",
+	// 	"acme_run_command_x64": "\"${acme_run_path}\" -logfile \"${acme_output_path}/${build_file_base_name}_ViceLog.txt\" -moncommands \"${acme_output_path}/${build_file_base_name}.vs\" ${acme_run_args} \"${acme_output_path}/${start_filename}\"",
+	"acme_run_command_x64": "\"${acme_emulator_run_path}\"  -prg  \"${acme_output_path}/${acme_compiled_filename}\"  ${acme_run_args} ",
+	
+	//"acme_run_command_c64debugger": "\"${acme_run_path}\" -autojmp -layout 1 -symbols \"${acme_output_path}/${build_file_base_name}.vs\" -wait 2500 -prg \"${acme_output_path}/${start_filename}\"",
+	// "acme_compile_args": "\"${build_file_base_name}.${file_extension}\" -log \"${acme_output_path}/${build_file_base_name}_BuildLog.txt\" -o \"${acme_output_path}/${acme_compiled_filename}\" -vicesymbols -showmem -odir \"${acme_output_path}\" ${acme_args}",
+	   //  "cmd": ["mkdir -p bin & acme -f cbm -DMACHINE_C64=0 -r 'bin/${file_base_name}_BuildLog.txt' -o 'bin/${file_base_name}_Compiled.prg' bin '${file}' "],
+	// "acme_compile_args":    "  -f cbm -DMACHINE_C64=0 -r 'bin/${file_base_name}_BuildLog.txt' -o 'bin/${file_base_name}_Compiled.prg' bin '${file}' ",
+
+	"acme_compile_args":    "  -f cbm -DMACHINE_C64=0 -r '${acme_output_path}/${build_file_base_name}_BuildLog.txt' -o '${acme_output_path}/${acme_compiled_filename}' ${acme_output_path} '${file}' ",
+
+	//"-r "${acme_output_path}/${build_file_base_name}_BuildLog.txt\",
+	//" -r ${acme_output_path}/${build_file_base_name}_BuildLog.txt\" -o \"${acme_output_path}/${acme_compiled_filename}\"  \"${acme_output_path}\" ${acme_args} \" "${build_file_base_name}.${file_extension}",
+
+	"acme_compile_debug_additional_args": "-afo :afo=true",
+}

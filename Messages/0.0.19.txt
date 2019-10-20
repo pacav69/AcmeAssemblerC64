@@ -1,0 +1,94 @@
+Version 0.0.19:
+Initial release 19 Oct 19 (19/10/19)
+
+This is a sublime plugin for acme cross assembler
+
+added 65c02 opcodes
+
+	"bra": {
+		"descr": "65c02",
+		"name": "BRanch Always",
+		"url": "http://6502.org/tutorials/65c02opcodes.html"
+	}, 
+	"phx": {
+		"descr": "65c02",
+		"name": "PusH X register",
+		"url": "http://6502.org/tutorials/65c02opcodes.html"
+	},
+	"phy": {
+		"descr": "65c02",
+		"name": "PusH Y register",
+		"url": "http://6502.org/tutorials/65c02opcodes.html"
+	},
+	"plx": {
+		"descr": "65c02",
+		"name": "PulL X register",
+		"url": "http://6502.org/tutorials/65c02opcodes.html"
+	},
+	"ply": {
+		"descr": "65c02",
+		"name": "PulL Y register",
+		"url": "http://6502.org/tutorials/65c02opcodes.html"
+	},
+	"stz": {
+		"descr": "65c02",
+		"name": "STore Zero",
+		"url": "http://6502.org/tutorials/65c02opcodes.html"
+	}, 
+	"trb": {
+		"descr": "65c02",
+		"name": "Test and Reset Bits",
+		"url": "http://6502.org/tutorials/65c02opcodes.html"
+	},
+	"tsb": {
+		"descr": "65c02",
+		"name": "Test and Set Bits",
+		"url": "http://6502.org/tutorials/65c02opcodes.html"
+	},
+	"bbr": {
+		"descr": "65c02",
+		"name": "Branch on Bit Reset",
+		"url": "http://6502.org/tutorials/65c02opcodes.html"
+	},
+	"bbs": {
+		"descr": "65c02",
+		"name": "Branch on Bit Set",
+		"url": "http://6502.org/tutorials/65c02opcodes.html"
+	},
+	"rmb": {
+		"descr": "65c02",
+		"name": "Reset Memory Bit",
+		"url": "http://6502.org/tutorials/65c02opcodes.html"
+	},
+	"smb": {
+		"descr": "65c02",
+		"name": "Set Memory Bit",
+		"url": "http://6502.org/tutorials/65c02opcodes.html"
+	},
+	"stp": {
+		"descr": "65c02",
+		"name": "STop the Processor",
+		"url": "http://6502.org/tutorials/65c02opcodes.html"
+	},
+	"wat": {
+		"descr": "65c02",
+		"name": "WAit for Interruptt",
+		"url": "http://6502.org/tutorials/65c02opcodes.html"
+	},
+
+
+RMB SMB - Reset or Set Memory Bit
+STP - STop the Processor
+WAI - WAit for Interrupt
+
+
+
+
+
+
+
+
+original coding for sublime kickassembler by
+//Swoffa of Noice
+
+
