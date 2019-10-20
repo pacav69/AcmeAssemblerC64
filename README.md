@@ -1,34 +1,31 @@
-Sublime Acmeembler (C64)
+# Sublime Acme Assembler (C64)
 ===========================
-Sublime Package for C64 development with Acme Assembler, 
-contains language configuration/syntax coloring, build system and some snippets. Support for OSX, Windows and Linux.
+Sublime Package for C64/CX16 6502 assembly development using the Acme Assembler, contains language configuration/syntax coloring, build system and some snippets. Support for OSX, Windows and Linux.
 Requires Sublime Text, version 3 is supported. 
 
-The x16 emulator is used for development
- the [Vice](http://www.viceteam.org) C64 emulator and the [C64Debugger](https://sourceforge.net/projects/c64-debugger/) C64 emulator/debugger is supported for running/debugging.
+The cx16 emulator is used for development.
 
-Below is a quick start guide, 
-
-full documentation here: 
-
-http://goatpower.wordpress.com/projects-releases/sublime-package-Acme-assembler-c64/
-
+Below is a quick start guide.
 
 # Installation, OSX
 -----------------
- * Download Vice C64 emulator from http://www.viceteam.org/#download, extract to folder `Vice` in your Applications folder  
-   Folder `/Applications/Vice/` should now contain x64 and some other files/folders.
- 
+* brew install acme
+
+* download and install Commander X16 emulator
+extract the files
+copy folder to Applications  folder
+
 
 Installation, Windows
 
-* Download Vice C64 emulator from http://www.viceteam.org/#download, extract to folder `c:\C64\Tools\Vice\` (\*\*)  
-   Folder `c:\C64\Tools\Vice\` should now contain x64.exe and some other files/folders.
+* download and install Commander X16 emulator 
 
 
-Installation, Linux
 
-- Download/build/install Vice C64 emulator, i followed this [guide](http://askubuntu.com/questions/357331/how-can-i-get-the-vice-c64-commodore-64-emulator-to-work). Ensure the path to the Vice folder (containing x64) exist in your PATH environment variable
+# Installation, Linux
+
+* download and install Commander X16 emulator 
+
 
 Develop, build and run
 ----------------------
@@ -61,6 +58,9 @@ Variable | Info
 `Acme_file_path` | Full path active file when command was triggered
 `Acme_prg_file` | Full path for suggested prg file name, for active file when command was triggered
 `Acme_bin_folder` | Path to current output folder (`bin` by default or specified by `Acme_output_path` setting)
+
+"acme_emulator_run_path": "/Applications/x16emu_mac-r33/x16emu" | path to emulator
+
 
 Pre/post-build
 --------------
