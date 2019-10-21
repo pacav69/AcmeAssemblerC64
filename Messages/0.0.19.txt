@@ -77,17 +77,6 @@ added 65c02 opcodes
 	},
 
 
-RMB SMB - Reset or Set Memory Bit
-STP - STop the Processor
-WAI - WAit for Interrupt
-
-
-
-
-
-
-
-
 original coding for sublime kickassembler by
 //Swoffa of Noice
 
