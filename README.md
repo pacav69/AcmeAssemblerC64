@@ -73,23 +73,25 @@ The following (relevant?) environment variables will be available in the make sc
 
 # Pre/post-build
 
-
 There's a way to execute custom scripts before/after the build.
 
 ## Variable | Info
 :--|:--
-`default_prebuild_path` | Full path to the `.bat` or `.sh` script file that will be executed __before__ the build.
-`default_postbuild_path` | Full path to the `.bat` or `.sh` script file that will be executed __after__ the build. Useful for file compression etc.
+* `default_prebuild_path` | Full path to the `.bat` or `.sh` script file that will be executed __before__ the build.
+
+* `default_postbuild_path` | Full path to the `.bat` or `.sh` script file that will be executed __after__ the build. Useful for file compression etc.
 
 
 # AcmeTooltips
 
-
 This plugin makes working with Acme Assembler easier by displaying various helpful tooltip information. Tooltips database can be extended to provide more c64 related info. So far rudimentary help files with Acme Assembler directives, illegal opcodes, VIC registers and SID registers are ready. This plugin was added by Roman Dobosz (Gryf/Elysium) and Krzysztof Dabrowski (Brush/Elysium)
 
-## Other documentation
-navigate to Preferences/Package Settings/AcmeAssemblerC64 and select the Acme Quick Ref - this is a quick reference text on Acme Assembler.
-65C02 Opcodes.html - right click and slect open in browser.
+# Other documentation
+Navigate to Preferences/Package Settings/AcmeAssemblerC64 and select the 
+
+* Acme Quick Ref - this is a quick reference text on Acme Assembler.
+
+* 65C02 Opcodes.html - right click and slect open in browser.
 
 # Configuration
 
@@ -120,3 +122,6 @@ Fork repo, make changes and submit pull requests.
 # Local development
 
 Just clone repo into Sublime package folder and you can test the package "live" during development.
+
+This plugin was originally created by //Swoffa of Noice
+
