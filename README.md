@@ -87,18 +87,21 @@ There's a way to execute custom scripts before/after the build.
 
 This plugin makes working with Acme Assembler easier by displaying various helpful tooltip information. Tooltips database can be extended to provide more c64 related info. So far rudimentary help files with Acme Assembler directives, illegal opcodes, VIC registers and SID registers are ready. This plugin was added by Roman Dobosz (Gryf/Elysium) and Krzysztof Dabrowski (Brush/Elysium)
 
+## Other documentation
+navigate to Preferences/Package Settings/AcmeAssemblerC64 and select the Acme Quick Ref - this is a quick reference text on Acme Assembler.
+65C02 Opcodes.html - right click and slect open in browser.
+
 # Configuration
 
+Navigate to Preferences/Package Settings/AcmeAssemblerC64 and select the configuration file to edit. Currently you can configure:
 
-Navigate to Preferences/Package Settings/AcmeTooltips and select the configuration file to edit. Currently you can configure:
-
-	"css_file": "AcmeTooltips/css/default.css"
+	"css_file": "AcmeAssemblerC64/css/default.css"
 
 This is a file that has the css file used to style the tooltips.
 
-    "help_directories": ["AcmeTooltips/helpdb"],
+    "help_directories": ["AcmeAssemblerC64/helpdb"],
 
-This defines the directory where json formatted help files are. Feel free to drop in your own.
+This defines the directory where json formatted help files are located. Feel free to drop in your own.
 
     "scopes": ["source.assembly.AcmeAssembler"],
 
@@ -110,8 +113,7 @@ For the debugging purposes you can increase the log level to info or debug, open
 
 # Contribute
 
-
-Making changes
+## Making changes
 
 Fork repo, make changes and submit pull requests.
 

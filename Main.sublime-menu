@@ -8,7 +8,7 @@
                 "children":
                 [
                     {
-                        "caption": "ç",
+                        "caption": "AcmeAssemblerC64",
                         "children":
                         [
                             {
@@ -17,6 +17,27 @@
                                     "file": "${packages}/AcmeAssemblerC64/README.md",
                                 },
                                 "caption": "README"
+                            },
+                            {
+                                "command": "open_file",
+                                "args": {
+                                    "file": "${packages}/AcmeAssemblerC64/helpdb/AcmeQuickRef.txt",
+                                },
+                                "caption": "Acme Quick Ref"
+                            },
+                            {
+                                "command": "open_file",
+                                "args": {
+                                    "file": "${packages}/AcmeAssemblerC64/helpdb/6502.org Tutorials_ 65C02 Opcodes.html",
+                                },
+                                "caption": "65C02 Opcodes.html"
+                            },
+                            {
+                                "command": "open_file",
+                                "args": {
+                                    "file": "${packages}/AcmeAssemblerC64/Examples/petscii-simple-acme.asm",
+                                },
+                                "caption": "simple-acme.asm"
                             },
                             { "caption": "-" },
                             {
