@@ -8,7 +8,11 @@ Below is a quick start guide.
 
 # Installation: OSX
 
-* need [homebrew ](https://brew.sh/) installed
+* install sublime text
+
+    brew cask install sublime-text
+
+* requires [homebrew ](https://brew.sh/) installed
 
     brew install acme
 
@@ -122,6 +126,15 @@ Fork repo, make changes and submit pull requests.
 # Local development
 
 Just clone repo into Sublime package folder and you can test the package "live" during development.
+
+## IT Development:
+
+p.s:
+I **LOVE** coffee! Buy me a coffee at:   
+
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=XWQDNV85QA9RC&source=url)
+
+
 
 This plugin was originally created by //Swoffa of Noice
 
