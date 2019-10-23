@@ -1,0 +1,1 @@
+{"platforms": ["*"], "url": "https://github.com/pacav69/AcmeAssemblerC64", "sublime_text": ">=2000", "version": "0.0.19", "dependencies": [], "description": "6502 development using Acme assembler"}
