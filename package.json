@@ -4,6 +4,13 @@
   "description": "Sublime Package for C64/CX16 6502 assembly development using the Acme Assembler, contains language configuration/syntax coloring, build system and some snippets. Support for OSX, Windows and Linux. Requires Sublime Text, version 3 is supported. ",
   "private": false
   },
+  "license": "MIT",
+  "repository": "pacav69/AcmeAssemblerC64",
+  "author": {
+    "name": "Pacav",
+    "email": "pacav69@gmail.com",
+    "url": "cavtronics.com"
+  },
   "dependencies": {
     // "vue": "^2.5.2"
   },
