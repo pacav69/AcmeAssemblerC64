@@ -1,5 +1,6 @@
 # Sublime Acme Assembler (C64)
 ![GitHub package.json version](https://img.shields.io/github/package-json/v/pacav69/AcmeAssemblerC64)
+![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/pacav69/AcmeAssemblerC64?include_prereleases)
 
 Sublime Package for C64/CX16 6502 assembly development using the Acme Assembler, contains language configuration/syntax coloring, build system and some snippets. Support for OSX, Windows and Linux.
 Requires Sublime Text, version 3 is supported. 
