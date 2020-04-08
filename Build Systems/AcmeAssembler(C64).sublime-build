@@ -5,8 +5,8 @@
     "file_regex": "^\\s*\\((.+\\.\\S+)\\s(\\d*):(\\d*)\\)\\s(.*)", //filename, line number, column number and error message
 
     //Settings,
-    // kickass_debug_path
-    // kickass_run_path
+    // acme_debug_path
+    // acme_run_path
 
     // Build only (Super+B / Ctrl+B)
     "target": "acme_build",
@@ -18,8 +18,9 @@
     },
     "osx":
     {
+        //"path": "$PATH:"
         "env" : { "CLASSPATH":"$CLASSPATH:/Applications/KickAssembler/KickAss.jar"},
-        "path": "$PATH:/Applications/VICE/X64.app/Contents/MacOS/"
+        "path": "$PATH:/Applications/Vice/X64.app/Contents/MacOS/"
     },
     "linux":
     {
@@ -34,33 +35,33 @@
         },
 
         {
-            // Build and Debug (Shift+F7)
-            "name": "Build and Debug",
-            "buildmode" : "build-debug",
+            // // Build and Debug (Shift+F7)
+            // "name": "Build and Debug",
+            // "buildmode" : "build-debug",
         },
 
         { 
             // Build and Run startup (F5)
-            "name": "Build and Run Startup",
-            "buildmode" : "build-run-startup",
+            // "name": "Build and Run Startup",
+            // "buildmode" : "build-run-startup",
         },
 
         { 
             // Build and Debug startup (Shift+F5)
-            "name": "Build and Debug Startup",
-            "buildmode" : "build-debug-startup",
+            // "name": "Build and Debug Startup",
+            // "buildmode" : "build-debug-startup",
         },
 
         {
             // Build Startup (Super+Shift+B / Ctrl+Shift+B)
-            "name": "Build Startup",
-            "buildmode" : "build-startup",
+            // "name": "Build Startup",
+            // "buildmode" : "build-startup",
         },
 
         {
-            // Make (F8)
-            "name": "Make",
-            "buildmode" : "make",
+            // // Make (F8)
+            // "name": "Make",
+            // "buildmode" : "make",
         }
     ]
 }
